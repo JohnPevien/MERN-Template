@@ -9,11 +9,13 @@
     "axios": "^0.19.2",
     "http-proxy-middleware": "^0.21.0",
     "materialize-css": "^1.0.0-rc.2",
+    "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
@@ -21,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "eslintConfig": {
     "extends": "react-app"
